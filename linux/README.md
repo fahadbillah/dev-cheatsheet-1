@@ -22,3 +22,26 @@ else
 ```
 $ exec bash
 ```
+
+
+- add aliases for git commands
+- Find the following lines in .bashrc
+```
+# some more ls aliases
+alias ll='ls -alF'
+alias la='ls -A'
+alias l='ls -CF'
+```
+
+- add the following lines below
+```
+alias push="git push"
+alias commit="git commit"
+alias clone="git clone"
+```
+- reboot bash
+```
+$ exec bash
+```
+
+
