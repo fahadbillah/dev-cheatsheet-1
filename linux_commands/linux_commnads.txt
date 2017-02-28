@@ -1,0 +1,12 @@
+1)cd - change directory. ex: cd /root/Desktop
+2)mkdir - create a new directory. ex: mkdir apple
+3)rmdir - remove an empty directory. ex: rmdir apple/
+4)rm - remove a file. ex: rm a.txt
+5)touch -  create a new file. ex: touch k.txt
+6)man - see the manual pages. ex: man ls
+7)ls - list all the files in  a directory. ex: ls /root
+8)pwd - show current working directory. ex: pwd
+9)ifconfig - show the ip, mac,etc.
+10) top - show the current processes.
+11) ps - show process under current bash
+12) apropos - find files,folder,etc. related to that keyword. ex: apropos search
