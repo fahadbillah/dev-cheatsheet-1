@@ -40,3 +40,4 @@ $ ./example
 ```
 
 - the code will then run and do the processes
+- the bash scripts are used to avoid repitation of commands, to make linux command tools and bash scripting is itself a programming language.
