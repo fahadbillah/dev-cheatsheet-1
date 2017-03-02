@@ -2,15 +2,42 @@
 
 ***
 
-* git clone
-* git branch
-* git add .
-* git checkout -B <new branch name>
-* git config --global core.editor subl (set sublime text as default editor)
-* touch ~/.gitmessage
-* subl ~/.gitmessage
-* git config --global commit.template ~/.gitmessage
-* git config --global user.email <email>
-* git config --global user.name <name>
-* git commit -F .git/COMMIT_EDITMSG
-* git log
+* to clone the repository files in local folder
+```
+git clone <ssh>
+```
+
+* check brach status
+```
+git branch
+```
+
+* add updated files to index
+```
+git add .
+```
+
+* create and move to a new branch
+```
+git checkout -B <new branch name>
+```
+
+* set sublime text as default editor
+```
+git config --global core.editor subl
+```
+
+* create a .gitmessage file and keep a default template for commit messages
+```
+git config --global commit.template ~/.gitmessage
+```
+
+* commit with the message in COMMIT_EDITMSG file
+```
+git commit -F .git/COMMIT_EDITMSG
+```
+
+* check log
+```
+git log
+```
