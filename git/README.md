@@ -2,58 +2,52 @@
 
 ***
 
-* to clone the repository files in local folder
-```
-git clone <ssh>
-```
+###git clone
+| Command  | Description  |
+|---|---|
+| ```git clone <ssh>``` | to clone the repository files in local folder |
 
-* check brach status
-```
-git branch
-```
+###git add
+| Command  | Description  |
+|---|---|
+| ```git add .``` | add updated files to index |
 
-* rename local branch
-```
-git branch -m <oldname> <newname>
-```
+###git push
+| Command  | Description  |
+|---|---|
+| ```git push origin <branchname>``` | push on the stated branch name |
 
-* add updated files to index
-```
-git add .
-```
+###git pull
+| Command  | Description  |
+|---|---|
+| ```git pull origin <branchname>``` | pull from stated branch and merge with local code |
 
-* switch branch
-```
-git checkout <branch name>
-```
+###git branch
+| Command  | Description  |
+|---|---|
+| ```git branch``` | check brach status |
+| ```git branch -m <oldname> <newname>``` | rename local branch |
 
-* create and move to a new branch
-```
-git checkout -B <new branch name>
-```
+###git checkout
+| Command  | Description  |
+|---|---|
+| ```git checkout <branch name>``` | switch branch |
+| ```git checkout -B <new branch name>``` | create and move to a new branch |
 
-* set sublime text as default editor
-```
-git config --global core.editor subl
-```
+###git config
+| Command  | Description  |
+|---|---|
+| ```git config --global core.editor subl``` | set sublime text as default editor |
+| ```git config --global commit.template ~/.gitmessage``` | create a .gitmessage file and keep a default template for commit messages |
 
-* create a .gitmessage file and keep a default template for commit messages
-```
-git config --global commit.template ~/.gitmessage
-```
+###git commit
+| Command  | Description  |
+|---|---|
+| ```git commit -m <message>``` | commit with a message |
+| ```git commit -F .git/COMMIT_EDITMSG``` | commit with the message in COMMIT_EDITMSG file |
 
-* commit with the message in COMMIT_EDITMSG file
-```
-git commit -F .git/COMMIT_EDITMSG
-```
+###git log
+| Command  | Description  |
+|---|---|
+| ```git log``` | check log |
 
-* check log
-```
-git log
-```
-
-| asd  | asd  | asdas  | asda  |asd   |
-|---|---|---|---|---|
-|  asda | asdasd  | asdasd  |  asdasd |  asdas |
-| asdasd  | asdasd | asdasd  | asdasd  | asdasd  |
-|  asdasd |  asdasd| asd  |  asdas a|  asdas |
