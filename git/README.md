@@ -2,42 +2,52 @@
 
 ***
 
-* to clone the repository files in local folder
-```
-git clone <ssh>
-```
+### git clone
+| Command  | Description  |
+|---|---|
+| ```git clone <ssh>``` | to clone the repository files in local folder |
 
-* check brach status
-```
-git branch
-```
+### git add
+| Command  | Description  |
+|---|---|
+| ```git add .``` | add updated files to index |
 
-* add updated files to index
-```
-git add .
-```
+### git push
+| Command  | Description  |
+|---|---|
+| ```git push origin <branchname>``` | push on the stated branch name |
 
-* create and move to a new branch
-```
-git checkout -B <new branch name>
-```
+### git pull
+| Command  | Description  |
+|---|---|
+| ```git pull origin <branchname>``` | pull from stated branch and merge with local code |
 
-* set sublime text as default editor
-```
-git config --global core.editor subl
-```
+### git branch
+| Command  | Description  |
+|---|---|
+| ```git branch``` | check brach status |
+| ```git branch -m <oldname> <newname>``` | rename local branch |
 
-* create a .gitmessage file and keep a default template for commit messages
-```
-git config --global commit.template ~/.gitmessage
-```
+### git checkout
+| Command  | Description  |
+|---|---|
+| ```git checkout <branch name>``` | switch branch |
+| ```git checkout -B <new branch name>``` | create and move to a new branch |
 
-* commit with the message in COMMIT_EDITMSG file
-```
-git commit -F .git/COMMIT_EDITMSG
-```
+### git config
+| Command  | Description  |
+|---|---|
+| ```git config --global core.editor subl``` | set sublime text as default editor |
+| ```git config --global commit.template ~/.gitmessage``` | create a .gitmessage file and keep a default template for commit messages |
 
-* check log
-```
-git log
-```
+### git commit
+| Command  | Description  |
+|---|---|
+| ```git commit -m <message>``` | commit with a message |
+| ```git commit -F .git/COMMIT_EDITMSG``` | commit with the message in COMMIT_EDITMSG file |
+
+### git log
+| Command  | Description  |
+|---|---|
+| ```git log``` | check log |
+
